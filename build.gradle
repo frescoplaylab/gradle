@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'application'
+
+mainClassName = 'StringWeaver'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
